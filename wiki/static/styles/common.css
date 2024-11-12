@@ -1,69 +1,117 @@
 * {
+    padding: 0;
     margin: 0;
 }
 
-.main {
+.page {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 .left_bar {
-    display: inline-block;
-    height: 100%;
+    width: 14%;
     padding: 10px;
-    background-color: rgb(212, 227, 243);
+    background-color: rgb(184, 183, 211);
 }
 
-.content {
-    display: block;
+.left_bar>logo_container {
+    max-width: 100%;
+    margin-bottom: 40px;
 }
 
-.menu {
+.left_bar>logo_container>img {
+    max-width: 100%;
+}
+
+.left_bar>div>ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.left_bar>div>p {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+}
+
+.main {
+    width: 84%;
+}
+
+.nav_bar {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(184, 183, 211);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.nav_bar>nav>ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav_bar>nav>ul>li>a {
+    display: block;
     padding: 10px;
-    background-color: rgb(212, 227, 243);
-    margin: 20px;
+    border-style: solid;
+    border-width: 0.5px;
 }
 
 .greetings {
-    display: flex;
-    flex-direction: row;
+    background-color: rgb(184, 183, 211);
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: rgb(212, 227, 243);
-    margin: 20px;
+    margin: 10px;
 }
 
-.cards {
-    display: block;
-    margin: 20px;
+.content {
+    padding: 10px;
 }
 
-.row {
+.columns {
     display: flex;
     flex-direction: row;
+}
+
+.left_column {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.right_column {
+    width: 50%;
 }
 
 .card {
     display: inline-block;
-    width: 50%;
     padding: 10px;
-    background-color: rgb(212, 227, 243);
-    margin: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(184, 183, 211);
 }
 
-.card_content {
-    margin-top: 10px;
+.card>div {
     margin-bottom: 10px;
 }
 
-.margin-top {
-    margin-top: 10px;
+.card_content>ul {
+    padding-left: 20px;
 }
 
-.margin-left {
+.card_content>img {
+    float: right;
+    margin-left: 10px;
+}
+
+.card_content>div {
+    display: flex;
+    flex-direction: column;
+    float: right;
     margin-left: 10px;
 }
