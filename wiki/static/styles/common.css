@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_bar {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(212, 227, 243);
+}
+
+.content {
+    display: block;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: rgb(212, 227, 243);
+    margin: 20px;
+}
+
+.greetings {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(212, 227, 243);
+    margin: 20px;
+}
+
+.cards {
+    display: block;
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(212, 227, 243);
+    margin: 20px;
+}
+
+.card_content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
